@@ -1,0 +1,14 @@
+{
+  "name": "docker-demo-hello-coffeescript",
+  "version": "0.0.0",
+  "description": "",
+  "main": "hello.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erwin van der Koogh",
+  "license": "APL v2",
+  "dependencies": {
+    "express": "~4.10.1"
+  }
+}
