@@ -1,0 +1,1 @@
+FROM evanderkoogh/php-apache:5.6
