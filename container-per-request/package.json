@@ -1,0 +1,16 @@
+{
+  "name": "container-per-request",
+  "version": "0.0.0",
+  "description": "Demo to show Docker speed. Fires up a container to handle every request",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erwin van der Koogh",
+  "license": "APL v2",
+  "dependencies": {
+    "express": "~4.10.2",
+    "dockerode": "~2.0.4",
+    "keep-alive-agent": "0.0.1"
+  }
+}
