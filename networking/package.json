@@ -1,0 +1,15 @@
+{
+  "name": "redis-counter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erwin van der Koogh",
+  "license": "APL v2",
+  "dependencies": {
+    "redis": "~0.12.1",
+    "express": "~4.10.2"
+  }
+}
