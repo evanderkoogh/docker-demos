@@ -1,0 +1,24 @@
+{
+  "apiVersion": "v1beta1",
+  "kind": "ReplicationController",
+  "id": "counter-controller",
+  "desiredState": {
+    "replicas": 3,
+    "replicaSelector": { "name": "counter" },
+    "podTemplate": {
+      "desiredState": {
+        "manifest": {
+          "version": "v1beta1",
+          "id": "counter-controller",
+          "containers": [{
+            "image": "evanderkoogh/redis-counter",
+            "name": "counter",
+            "ports": [{ "name": "http-server", "containerPort": 8000 }]
+          }],
+        }
+      },
+      "labels": { "name": "counter" }
+    },
+  },
+  "labels": { "name": "counter" }
+}

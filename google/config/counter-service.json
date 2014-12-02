@@ -1,0 +1,9 @@
+{
+  "apiVersion": "v1beta1",
+  "kind": "Service",
+  "id": "counter",
+  "port": 8000,
+  "containerPort": "http-server",
+  "selector": { "name": "counter" },
+  "createExternalLoadBalancer": true
+}
