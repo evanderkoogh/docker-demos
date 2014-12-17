@@ -30,3 +30,5 @@ Flocker by ClusterHQ is another Docker clustering solution with a focus on data 
 ##Weave
 
 Weave is an extremely interesting tool. It does network routing for Docker containers. It allows an IP address to follow an container around a cluster. 
+
+Screencast: https://www.youtube.com/watch?v=BoMgI3EcvDs&feature=youtu.be
