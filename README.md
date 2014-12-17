@@ -18,6 +18,7 @@ Fig is a tool to make wiring up containers easier. In a fig.yml file you describ
 ##Container per Request
 
 This is a demo to show how fast Docker is compared to Virtual Machines. This is a small application that spins up a Docker container for every request.
+Screencast: https://www.youtube.com/watch?v=SfCkcmnlFBw&feature=youtu.be
 
 ##Kubernetes on Google Compute Engine
 
