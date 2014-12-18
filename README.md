@@ -11,6 +11,7 @@ Screencast: http://youtu.be/Um2p3SKcJH4
 ##Networking
 
 A more realistic example. We create 2 Docker images, one for a web frontend and one for a Redis database. We then wire up those 2 containers so the web frontend can talk to the Redis database.
+Screencast: https://www.youtube.com/watch?v=YwUlYzKSPzI
 
 ##Fig
 
@@ -25,6 +26,7 @@ Screencast: https://www.youtube.com/watch?v=SfCkcmnlFBw&feature=youtu.be
 ##Kubernetes on Google Compute Engine
 
 Kubernetes is an open source tool that is superficially similar to Fig, but for a cluster, in that you describe what your application looks like and Kubernetes will start and wire up all containers. It also monitors the containers and restarts/moves them when necessary.
+Screencast: http://youtu.be/QYvdy9GR4xQ
 
 ##Flocker
 
