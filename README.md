@@ -6,6 +6,7 @@ Collection of demos of core Docker functionality and frameworks build on top of 
 ##Hello Worlds
 
 The obligatory Hello World examples. Shows how to create your first Docker image, run them and push them to the central Docker repository.
+Screencast: http://youtu.be/Um2p3SKcJH4
 
 ##Networking
 
@@ -14,6 +15,7 @@ A more realistic example. We create 2 Docker images, one for a web frontend and 
 ##Fig
 
 Fig is a tool to make wiring up containers easier. In a fig.yml file you describe what containers you want and how they connect to each other. Fig will then build and wire up all the containers. Only works on one machine though.
+Screencast: http://youtu.be/G-ic1peITOk
 
 ##Container per Request
 
